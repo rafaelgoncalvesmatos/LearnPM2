@@ -141,7 +141,7 @@ $ pm2 save
 Descobrir informaçoes sobre o serviço:
 
 ```md
-~/alcantara$ pm2 show  0
+$ pm2 show  0
  Describing process with id 0 - name main 
 ┌───────────────────┬──────────────────────────────────────────┐
 │ status            │ online                                   │
@@ -150,7 +150,7 @@ Descobrir informaçoes sobre o serviço:
 │ version           │ 0.0.1                                    │
 │ restarts          │ 0                                        │
 │ uptime            │ 102s                                     │
-│ script path       │ /home/azureuser/alcantara/main.js        │
+│ script path       │ /home/azureuser/scanelastic/main.js        │
 │ script args       │ N/A                                      │
 │ error log path    │ /home/azureuser/.pm2/logs/main-error.log │
 │ out log path      │ /home/azureuser/.pm2/logs/main-out.log   │
@@ -158,7 +158,7 @@ Descobrir informaçoes sobre o serviço:
 │ interpreter       │ node                                     │
 │ interpreter args  │ N/A                                      │
 │ script id         │ 0                                        │
-│ exec cwd          │ /home/azureuser/alcantara                │
+│ exec cwd          │ /home/azureuser/scanelastic                │
 │ exec mode         │ fork_mode                                │
 │ node.js version   │ 14.18.1                                  │
 │ node env          │ N/A                                      │
@@ -195,7 +195,7 @@ Descobrir informaçoes sobre o serviço:
 Visualizando os logs:
 
 ```md
-~/alcantara$ pm2 logs
+$ pm2 logs
 [TAILING] Tailing last 15 lines for [all] processes (change the value with --lines option)
 /home/azureuser/.pm2/pm2.log last 15 lines:
 PM2        | 2022-01-26T01:01:04: PM2 log: PM2 version          : 5.1.2
@@ -216,26 +216,26 @@ PM2        | 2022-01-26T11:04:01: PM2 log: App [main:0] online
 
 /home/azureuser/.pm2/logs/main-error.log last 15 lines:
 0|main     | }
-0|main     | [Error: ENOSPC: no space left on device, open '/home/azureuser/alcantara/tmp/Geografia-%2BEspaco%2BGeografico.mp4'] {
+0|main     | [Error: ENOSPC: no space left on device, open '/home/azureuser/scanelastic/tmp/Geografia-%2BEspaco%2BGeografico.mp4'] {
 0|main     |   errno: -28,
 0|main     |   code: 'ENOSPC',
 0|main     |   syscall: 'open',
-0|main     |   path: '/home/azureuser/alcantara/tmp/Geografia-%2BEspaco%2BGeografico.mp4'
+0|main     |   path: '/home/azureuser/scanelastic/tmp/Geografia-%2BEspaco%2BGeografico.mp4'
 0|main     | }
-0|main     | [Error: ENOSPC: no space left on device, open '/home/azureuser/alcantara/tmp/Generos%2Btextuais.mp4'] {
+0|main     | [Error: ENOSPC: no space left on device, open '/home/azureuser/scanelastic/tmp/Generos%2Btextuais.mp4'] {
 0|main     |   errno: -28,
 0|main     |   code: 'ENOSPC',
 0|main     |   syscall: 'open',
-0|main     |   path: '/home/azureuser/alcantara/tmp/Generos%2Btextuais.mp4'
+0|main     |   path: '/home/azureuser/scanelastic/tmp/Generos%2Btextuais.mp4'
 0|main     | }
-0|main     | [Error: ENOSPC: no space left on device, open '/home/azureuser/alcantara/tmp/Geografia-%2BEspaco%2BGeografico.mp4'] {
+0|main     | [Error: ENOSPC: no space left on device, open '/home/azureuser/scanelastic/tmp/Geografia-%2BEspaco%2BGeografico.mp4'] {
 0|main     |   errno: -28,
 ```
 
 Abrir o pm2 monitor para monitorar:
 
 ```md
- ~/alcantara$ pm2 monit
+ $ pm2 monit
 ```
 
 ![](https://github.com/rafaelgoncalvesmatos/RepoAssets/blob/master/Outros/pm2/pm2_01.png)
