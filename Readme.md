@@ -1,3 +1,5 @@
+![](https://github.com/rafaelgoncalvesmatos/RepoAssets/blob/master/Outros/pm2/home_office_01.jpeg)
+
 # PM2 Startup
 
 PM2 é um comando instalado via npm que gerencia as apps que estão instaladas no ambiente local.
@@ -243,7 +245,6 @@ Abrir o pm2 monitor para monitorar:
 ## Cluster
 
 Para subir sua app com varias instancias nodejs faz isso de forma fácil e prática, caso não tenha iniciado a app ainda poderá executar desta forma:
-
 
 ```md
 $ pm2 start main.js -i 4 
