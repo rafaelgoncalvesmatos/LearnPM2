@@ -290,3 +290,9 @@ $ pm2 save
 [PM2] Saving current process list...
 [PM2] Successfully saved in /home/azureuser/.pm2/dump.pm2
 ```
+
+### Links Referencia
+
+Links uteis para visualização de mais opções de trabalho com o pm2
+
+> https://pm2.keymetrics.io/docs/usage/quick-start/
