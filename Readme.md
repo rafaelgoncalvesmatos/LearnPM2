@@ -1,4 +1,4 @@
-![](https://github.com/rafaelgoncalvesmatos/RepoAssets/blob/master/Outros/repos/home_office_01.jpeg)
+![](https://github.com/rafaelgoncalvesmatos/RepoAssets/blob/master/Outros/repos/home_office_01_wide.jpeg)
 
 # PM2 Startup
 
