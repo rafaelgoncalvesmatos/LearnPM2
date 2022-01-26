@@ -12,7 +12,7 @@ Para instalação comando:
 $ npm install pm2@latest
 ```
 
-Entre no local onde a app se encontra, neste exemplo:
+Entre no local onde a app se encontra, neste caso exemplo:
 
 ```md
 $ cd scanelastic
@@ -28,11 +28,13 @@ $ pm2 start main.js
 Pode ser visto o status das apps que estão na máquina:
 
 ```md
-$ pm2 status 
+$ pm2 status
 ┌────┬────────────────────┬──────────┬──────┬───────────┬──────────┬──────────┐
 │ id │ name               │ mode     │ ↺    │ status    │ cpu      │ memory   │
+├────┼────────────────────┼──────────┼──────┼───────────┼──────────┼──────────┤
+│ 0  │ main               │ cluster  │ 0    │ online    │ 0%       │ 191.6mb  │
 └────┴────────────────────┴──────────┴──────┴───────────┴──────────┴──────────┘
-[PM2][WARN] Current process list is not synchronized with saved list. App main differs. Type 'pm2 save' to synchron
+
 ```
 
 # Manipulação
