@@ -238,6 +238,8 @@ Abrir o pm2 monitor para monitorar:
  ~/alcantara$ pm2 monit
 ```
 
+![](https://github.com/rafaelgoncalvesmatos/RepoAssets/blob/master/Outros/pm2/pm2_01.png)
+
 ## Cluster
 
 Para subir sua app com varias instancias nodejs faz isso de forma fácil e prática, caso não tenha iniciado a app ainda poderá executar desta forma:
